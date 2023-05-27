@@ -1,0 +1,338 @@
+%-------------------------
+% Resume in Latex
+% Author : Jaishree Joshita
+% Based off of: https://github.com/jaishreejoshita/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+% \documentclass[a4paper,11 pt]{article}
+\usepackage[para]{footmisc}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{scrextend}
+\usepackage{attachfile}
+\usepackage{dirtytalk}
+\usepackage{upquote}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+	\end{tabular*}\vspace{-5pt}
+	
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+% \newcommand{\projectDescr}[2]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]
+%     %   \textbf{#1} & #2 \\
+%       \textit{\small#3} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\include{hyperref}
+\definecolor{myblue}{RGB}{0, 0, 150}
+
+\hypersetup{colorlinks,urlcolor = myblue}
+\include{fdsymbol}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	
+	%----------HEADING----------
+	\begin{center}
+		\textbf{\LARGE \scshape JAISHREE JOSHITA} \\ \vspace{1pt}
+		\large \href{tel:+91-8809166418}{\faPhone}{(+91)~8809166418} $|$
+		\href{mailto:jaishreejoshita@gmail.com}{\faEnvelope} \texttt{jaishreejoshita@gmail.com} $|$\\ 
+		\href{{https://github.com/jaishreejoshita}}{\faGithub} \texttt{jaishreejoshita} $|$
+	\href{{https://www.linkedin.com/in/jaishreejoshita/}}{\faLinkedin} \texttt{Jaishree Joshita} $|$
+    \href{{https://jaishreejoshita.github.io}}{\faChain} \texttt{jaishreejoshita.github.io}
+	\end{center}
+	
+	
+	%----------SUMMARY---------
+        %\vspace{-5pt}
+	\section{Summary}
+	Research Analyst with 1+ years of experience in company risk analysis and due diligence.
+	
+	%-----------EDUCATION-----------
+	\vspace{-8pt}
+	\section{Education}
+	\resumeSubHeadingListStart
+ 
+	% \vspace{5pt}
+	\resumeSubheading
+	{Banaras Hindu University}{Varanasi, India}
+	{Master of Arts in Economics}{July'19 -- July'21}
+	\begin{itemize}
+		\item {Cumulative GPA: \textbf{7.5/10.0}} \vspace{-8pt}
+		%\item Specialization in Advanced Econometrics\vspace{-3pt}
+	\end{itemize}
+
+        \resumeSubheading
+	{Central University of Jharkhand}{Ranchi, India}
+	{Integrated Bachelor of Arts and Bachelor of Education}{July'15 -- May'19}
+	\begin{itemize}
+		\item {Cumulative GPA: \textbf{8.98/10.0}} \vspace{-3pt}
+		%\item Major in Economics, GPA: \textbf{9.2/10.0}\vspace{-3pt}
+	\end{itemize}
+	
+	\resumeSubHeadingListEnd
+	
+	\vspace{-12pt}
+	
+	%----------- PROFESSIONAL EXPERIENCE-----------
+        %\vspace{1pt}
+	\section{Professional Experience}
+	
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Research Analyst $|$ London Stock Exchange Group $|$ Risk Operation Team}{\emph{Oct'21 -- Present}}
+	{\small{LSEG is a stock exchange and financial information company that owns London Stock Exchange (on which it is also listed)}}{}
+	\resumeItemListStart
+	% \resumeItem{{\textbf{Introduction:} \textit{TEXT}}}
+	\resumeItem{Conducting intense \textbf{due diligence} on subject entities utilizing their negative \textbf{social media} and online presence}
+ \resumeItem{Scouting data from tools like Eikon, \textbf{Global Compliance Checks}, Sigwatch, Bitsight, \textbf{Creditsafe} and LexisNexis}
+ \vspace{-4mm}
+	\resumeItem{\textbf{Reporting} and \textbf{classifying} information into \textbf{6} risk categories along with \textbf{bench-marking} the overall risk rating}
+	\resumeItem{Gained knowledge of \textbf{firm's complex ownership structure} and \textbf{risk assessment for business partnership}}
+	% \resumeItem{Awarded the \textbf{Pre-Placement Offer (PPO)} for outstanding work during the internship period}
+	\resumeItemListEnd
+	% \newpage
+ \resumeSubheading
+	{Graduate Rotational Internship Program $|$ The Sparks Foundation \href{https://jaishreejoshita.github.io/The-Sparks-Foundation-Tasks/}{\faExternalLink}}{\emph{Aug'21 -- Sep'21}}
+	{The sparks foundation is working to bring parity in education and making sure children have equal opportunity at success}{}
+	\resumeItemListStart
+	\resumeItem{Performed \textbf{k-means clustering} on \textbf{IRIS} dataset and visualized the clusters using \textbf{Scikit-Learn} and Scipy}
+ \resumeItem{Developed marks predicting \textbf{regression} model for students based on study time \& achieved \textbf{0.947} R-2 score}
+ \resumeItem{Performed \textbf{exploratory data analysis} on Superstores, \textbf{Global Terrorism} and Indian Premier League datasets}
+	\resumeItemListEnd
+	\resumeSubheading
+	{Research Intern $|$ Ministry of External Affairs, GoI $|$ XPD Division}{\emph{Dec'19 -- Feb'20}}{External Publicity \& Public Diplomacy (XPD) Division of the MEA intends to disseminate information about India worldwide}{}
+	\resumeItemListStart
+	\resumeItem{Worked closely with under-secretaries \href{https://ch.linkedin.com/in/pawan-badhe-63281720}{Pawan Badhe}, 
+ \href{}{Shishir Kothari} and \href{}{Garima Paul} at \textbf{ground level}}
+	\resumeItem{\textbf{Analysed} the presence of MEA on social websites, \textbf{print media}, broadcasting services and the \textbf{internet}}
+        \resumeItem{Researched and \textbf{implemented} ways to improve outreach of \textbf{MEA activities} in the \textbf{Hindi Belt} region effectively}
+	\resumeItemListEnd
+ 
+	\resumeSubHeadingListEnd
+	\vspace{-12pt}
+	%----------- RESEARCH EXPERIENCE-----------
+	\section{Academic Projects}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{\small{An Econometric Analysis of the Impact of Exchange Rate Fluctuations on the Indian Equity Market \href{https://jaishreejoshita.github.io/Masters_Thesis/}{\faExternalLink}}}{}
+	{Master's Thesis, Department of Economics}{Banaras Hindu University}
+	\resumeItemListStart
+	%\resumeItem{\textbf{Introduction:} \textit{Econometrics is defined as the social science in which the tools of economic theory, mathematics and statistical inference are applied to analyse economic phenomena. In this work, we tried to predict the impact of exchange rate fluctuation on the Indian equity market in various phases of the Indian economy by performing an episodic analysis for the period 1990-2021.}}
+        \resumeItem{Performed \textbf{exploratory data analysis} on SENSEX data from Quandl and INR/USD exchange rate data from FRED in R by dividing the study period into 4 economic phases}
+	% \resumeItem{Analyzed SENSEX data from Quandl and INR/USD exchange rate historical data from FRED covering the stress, normal and growth periods of the Indian economy from 1990-2021 using \texttt{quantmod, tseries, lmtest} packages in R}
+	\resumeItem{Developed an OLS regression model between daily volatilities (to avoid spurious regression) of SENSEX and exchange rate for each phase separately and correlated the results using market performance indicators}
+	\resumeItem{Performed Unit Root Test, ADF test and Granger Causality Teston on the time series data to analyse stationarity}
+	
+        \resumeItemListEnd
+	%\newpage
+	\resumeSubheading
+	{The Indian Shadow Economy: Shrinking or Expanding? \href{https://jaishreejoshita.github.io/Bachelors_Thesis/}
+ {\faExternalLink}}{\emph{Jan'18 -- Jun'18 }}
+	{Bachelor's Thesis, Department of Education}{CU Jharkhand}
+	\resumeItemListStart
+	%\resumeItem{\textbf{Introduction:} \textit{Shadow economy deals with the economy of small-scale local businesses such as vegetable vendors, brokers, agents etc. which is not regulated by the government in any form. Through this research, an attempt was made to estimate the size of the shadow economy of India.}}
+	
+	\resumeItem{Measured the change in \textbf{contribution} of shadow economy to the \textbf{GDP} over the period \textbf{1990 to 2016} using the \textbf{Electricity Consumption method} considering demonetization, goods and services tax and \textbf{online economy}.}
+	
+	\resumeItem{Gathered secondary data from \textbf{World Bank} and  \textbf{National Sample Survey Organization} and performed segregated analysis using GDP-Electricity consumption \textbf{elasticity} method by \textbf{Kaufmann and Kaliberda}}
+	\resumeItemListEnd
+	% \vspace{-4mm}
+	% \resumeSubheading
+	\resumeItemListEnd
+	
+	%\resumeSubHeadingListEnd
+	\vspace{-6pt}
+	
+	
+	
+	%-----------SCHOLASTIC ACHIEVEMENTS-----------
+	%\section{Scholastic Achievements}
+	%\resumeSubHeadingListStart
+	%\begin{itemize}
+		%\vspace{-4pt}
+
+		%\small{
+
+                %\item Qualified \textbf{UGC National Eligibility Test} for \textbf{Assistant Professorship} in Economics and related areas
+                %\hfill (\emph{2021})
+                %\vspace{-3pt}
+   
+			%\item Ranked \textbf{3rd} in the batch of integrated B.A.B.Ed. program, Central University of Jharkhand
+			%\hfill (\emph{2019})
+			%\vspace{-3pt}
+			
+			%\item Qualified \textbf{Central Teacher Eligibility Test} conducted by CBSE to teach in secondary schools
+			%\hfill (\emph{2018})
+			%\vspace{-3pt}
+			
+			%\item Secured an \textbf{All India Rank of 39} in CUCET among 0.1 million candidates
+			%\hfill (\emph{2015})
+			%\vspace{-3pt}
+
+                %\item Scored \textbf{100\% marks} in both Mathematics and Science subjects in class 10 CBSE board examination
+                %\hfill{(\emph{2018})}
+                %\vspace{-3pt}}
+        
+		
+	%\end{itemize}
+	%\resumeSubHeadingListEnd
+	
+	%\vspace{-1pt}
+
+		%-----------PROGRAMMING SKILLS-----------
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+                    \textbf{Programming Languages}{: EViews, Python, R, SQL} \\
+                    \textbf{Machine Learning}{: OpenCV, Numpy, Pandas, Seaborn, Sklearn, Scipy, Scikit-learn, Jupyter} \\
+				\textbf{Others}{: R-Markdown, MS Office, Advanced MS Excel, MS Word, MS PowerPoint, Git, Github} \\
+				% \textbf{Software}{: Jira, Confluence, BitBucket, Git, GNURadio, NgSpice, \LaTeX, GNUPlot, XCircuit}\\
+    %                 \textbf{Embedded}{: Keil $\mu$Vision, TI Code Composer Studio, MSP430, CM3, FreeRTOS, Saleae Logic Analyser, VHDL}
+		}}
+	\end{itemize}
+	\vspace{-0.5cm}
+	%-----------COURSEWORK-----------
+	\section{Key Coursework}
+ \vspace{-20pt}
+	\newlength{\mylen}
+	\setbox1=\hbox{$\bullet$}\setbox2=\hbox{\tiny$\bullet$}
+	\setlength{\mylen}{\dimexpr0.5\ht1-0.5\ht2}
+	
+	\newcommand{\tableItemi}[1]{
+		\renewcommand\labelitemi{\raisebox{\mylen}{\tiny$$}}
+		\item\small{
+			{#1}
+		}
+	}
+	\newcommand{\tableListStart}[1]{
+		\textbf{\small{#1}} & \vspace{-6pt}
+		\begin{itemize}[label={},itemsep = -5.0mm, leftmargin=5.5mm]
+		}
+		\newcommand{\tableListEnd}{
+			\vspace*{-15pt}
+		\end{itemize}
+	}
+	% \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+	\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+	\vspace{10pt}
+        \begin{tabular}{M{2.7cm}| M{16.3cm}}
+            \vspace{2mm}
+             \tableListStart{Econometrics}
+             \tableItemi{Time Series Analysis, Econometrics of Panel Data, Introductory Econometrics, Advanced Econometrics}
+             \vspace{-4mm}
+             \tableListEnd\\ \hline
+            \tableListStart{Economics}            
+            \tableItemi{International Economics, Development Economics, Micro \& Macro Economics}
+            \tableListEnd\\ \hline
+            \tableListStart{Mathematics}
+            \tableItemi{Introduction to Mathematical Economics, Probability \& Statistics, Quantitative Methods}
+            \tableListEnd
+        \end{tabular}		
+	
+	\end{tabular}
+	% \vspace{1pt}
+	%-------------------------------------------
+\end{document}
